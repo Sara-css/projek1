@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Asosiy</a></li>
+                    <li><a href="about.html">Haqimizda</a></li>
+                    <li><a href="course.html">Kurslar</a></li>
+                    <li><a href="blog.html">Rasmlar</a></li>
+                    <li><a href="contact.html">Aloqa</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate Online Programs For 2021</h1>
+    </section>
+
+    <!--blog page content-->
+    <section class="blog-content">
+        <div class="row">
+<div class="blog-left">
+    <img src="images/basketball-108622_640.jpg">
+    <h2>Our Sertificate Online</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus facere eius fugit quis tempore, rem odio fuga architecto cupiditate aperiam excepturi labore quos earum quo laboriosam itaque eaque consectetur!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nam delectus accusantium illo quo obcaecati, est, consequuntur soluta vero alias reprehenderit ea dignissimos, ullam eius? Culpa, accusantium. Ea, error voluptatibus.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium porro quo. Corrupti delectus obcaecati vero laborum corporis ipsa qui molestias inventore aspernatur hic, porro, repellendus iste modi totam quis.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odio quam adipisci laborum nam in voluptates nemo nobis, vero voluptate magni iste perferendis fuga molestiae placeat cumque? Earum, perspiciatis debitis.</p>
+
+    <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+        </form>
+    </div>
+
+
+
+</div>
+<div class="blog-right">
+    <h3>Post Categories</h3>
+    <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Data Science</span>
+        <span>28</span>
+    </div>
+    <div>
+        <span>Machine Learing</span>
+        <span>15</span>
+    </div>
+    <div>
+        <span>Computer Science</span>
+        <span>34</span>
+    </div>
+    <div>
+        <span>AutoCad</span>
+        <span>42</span>
+    </div>
+    <div>
+        <span>Journalism</span>
+        <span>22</span>
+    </div>
+    <div>
+        <span>Commerce</span>
+        <span>30</span>
+    </div>
+</div>
+</div>
+
+    </section>
+
+    <!-- facilities -->
+   
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>Biz haqimizda</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci nobis, dignissimos vitae voluptate <br>
+            suscipit asperiores doloribus facilis enim voluptas. Non voluptatem error ipsum mollitia cumque.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Stockholm<i class="fa fa-heart-o"></i>Sara<i class="fa fa-heart-o"></i>Colection</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
